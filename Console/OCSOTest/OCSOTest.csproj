@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="About.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="About.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ConsoleTables" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\Arendelle.Safety.OCSOCalls\Arendelle.Safety.OCSOCalls.csproj" />
+  </ItemGroup>
+
+</Project>

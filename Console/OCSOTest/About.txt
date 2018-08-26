@@ -1,0 +1,6 @@
+﻿Arendelle.Safety.OCSOCalls
+Written with <3 by Chris Zenzel
+
+Avaliable for Hire (FT, PT, Consulting) - +1 321-244-4953 or support@chriszenzel.com
+
+A .NET Standard/Core Library to Receive the Latest Active Calls for Service from Orange County, Florida - For my code portfolio/job search (and my own try to stay focused with Autism)

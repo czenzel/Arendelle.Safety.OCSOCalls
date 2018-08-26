@@ -3,9 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{8E328342-F7BB-4DB1-B6F4-37A386210363}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\2018-OCSO-Zones-Only.pdf = Resources\2018-OCSO-Zones-Only.pdf
+		Resources\Sample.xml = Resources\Sample.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{4E110844-2A09-458B-851A-F453A7EDC5FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arendelle.Safety.OCSOCalls", "Libraries\Arendelle.Safety.OCSOCalls\Arendelle.Safety.OCSOCalls.csproj", "{341E750D-5B46-460E-8731-0553283002B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{88BD82CC-5BBE-47FC-AE41-10DA2CB22FD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCSOTest", "Console\OCSOTest\OCSOTest.csproj", "{8BB88255-CEE1-48B6-9EEE-2B1852FAB086}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{341E750D-5B46-460E-8731-0553283002B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341E750D-5B46-460E-8731-0553283002B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341E750D-5B46-460E-8731-0553283002B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341E750D-5B46-460E-8731-0553283002B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB88255-CEE1-48B6-9EEE-2B1852FAB086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB88255-CEE1-48B6-9EEE-2B1852FAB086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB88255-CEE1-48B6-9EEE-2B1852FAB086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB88255-CEE1-48B6-9EEE-2B1852FAB086}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{341E750D-5B46-460E-8731-0553283002B4} = {4E110844-2A09-458B-851A-F453A7EDC5FE}
+		{8BB88255-CEE1-48B6-9EEE-2B1852FAB086} = {88BD82CC-5BBE-47FC-AE41-10DA2CB22FD5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AE66DF21-E084-4770-AA1E-AA5662C916DC}
